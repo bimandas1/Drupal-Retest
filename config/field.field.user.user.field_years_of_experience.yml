@@ -1,0 +1,24 @@
+uuid: 488b34cd-4b40-4925-9034-2b3db9d5b743
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_years_of_experience
+  module:
+    - user
+id: user.user.field_years_of_experience
+field_name: field_years_of_experience
+entity_type: user
+bundle: user
+label: 'Years of Experience'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

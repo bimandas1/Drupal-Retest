@@ -1,0 +1,29 @@
+uuid: b84277dd-009a-401d-b1a5-583c8cac509f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_developers
+    - node.type.project
+id: node.project.field_developers
+field_name: field_developers
+entity_type: node
+bundle: project
+label: Developers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    target_bundles: null
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    filter:
+      type: _none
+    include_anonymous: true
+field_type: entity_reference

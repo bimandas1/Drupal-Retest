@@ -1,0 +1,21 @@
+uuid: f9bbf480-1960-4818-9314-a20473fd9ae7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_project_allocation
+  module:
+    - options
+    - user
+id: user.user.field_project_allocation
+field_name: field_project_allocation
+entity_type: user
+bundle: user
+label: 'Project allocation'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
