@@ -1,0 +1,15 @@
+uuid: 6c3f61c9-49d2-4b49-ab91-0c933e0098ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.project
+  module:
+    - node
+id: manager
+label: Manager
+weight: 4
+is_admin: null
+permissions:
+  - 'create project content'
+  - 'edit any project content'

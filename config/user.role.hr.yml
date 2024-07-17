@@ -1,0 +1,15 @@
+uuid: e22a1509-4886-45c7-8c6c-142dc9cdf907
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.project
+  module:
+    - node
+id: hr
+label: HR
+weight: 6
+is_admin: null
+permissions:
+  - 'create project content'
+  - 'edit any project content'
